@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>Shopee.png</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.{1,1900}$</string>
+			<key>Title</key>
+			<string>Shopee ID</string>
+			<key>URL</key>
+			<string>https://shopee.co.id/search?keyword={popclip text}</string>
+		</dict>
+	</array>
+	<key>Apps</key>
+	<array>
+		<dict>
+			<key>Link</key>
+			<string>https://shopee.co.id/</string>
+			<key>Name</key>
+			<string>ShopeeID</string>
+		</dict>
+	</array>
+	<key>Credits</key>
+	<array>
+		<dict>
+			<key>Link</key>
+			<string>https://galih.net</string>
+			<key>Name</key>
+			<string>galih</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Mencari barang di Shopee Indonesia</string>
+	<key>Extension Identifier</key>
+	<string>com.galih.popclip.extension.shopee</string>
+	<key>Extension Name</key>
+	<string>Shopee ID</string>
+</dict>
+</plist>
